@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/37ef4fca07.js" crossorigin="anonymous"></script>
+    <title>Contactos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_logotipo">
+            <a href="index.html"><img src="imagenes/logo_blanco.png" alt="Logo"></a>
+        </div>
+        <nav class="header_menustyle">
+            <ul>
+                <li><a href="#inicio">ES</a></li>
+                <li><a href="#nosotros">EN</a></li>
+                <li><a href="#store" class="PT">PT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container_call grid_1">
+            <div class="box_call">
+                <img src="imagenes/call_center.jpg" alt="">
+            </div>
+            <div class="box_call">
+                <div class="form_contacto">
+                    <h1>Contáctanos</h1>
+                    <p>Para consultas en general, escribenos a green_care@hotmail.com</p>
+                </div>
+            </div>
+            <div id="styleTransform" class="box_call">
+                <form action="" method="" enctype="text/plain">
+                    <div class="container_formulario grid_css">
+                        <div class="grid_datos">
+                            <div class="form_nombre">
+                                <label for="name">Nombre:</label>
+                                <input id="name" type="text" name="name">
+                            </div>
+                            <div class="form_email">
+                                <label for="email">Email:</label>
+                                <input id="email" type="email" name="email">
+                            </div>
+                        </div>
+                        <div class="grid_subject">
+                            <label for="subject">Subject:</label>
+                            <input id="subject" type="text" name="subject">
+                        </div>
+                        <div class="grid_textarea">
+                            <label for="textarea">Mensaje:</label>
+                            <textarea name="" id="" cols="25" rows="10"></textarea>
+                        </div>
+                        <div class="grid_fecha">
+                            <div class="form_calendario">
+                                <label for="calendar">Calendario:</label>
+                                <input id="calendar" type="date" name="calendar">
+                            </div>
+                            <div class="form_pais">
+                                <label for="paises">Seleccione un País</label>
+                                <select name="paises" id="paises" required>
+                                    <option value="Sele" selected>Seleccione:</option>
+                                    <option value="ARG">Argentina</option>
+                                    <option value="BRA">Brazil</option>
+                                    <option value="ECU">Ecuador</option>
+                                    <option value="URU">Uruguay</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid_terminos">
+                            <div class="form_terminos">
+                                <label for="check-1">Acepta términos y condiciones</label>
+                                <input type="checkbox" name="acepta" id="check-1" value="1">
+                            </div>
+                            <div class="form_noticias">
+                                <label for="check-2">Quiero recibir noticias nuestras</label>
+                                <input type="checkbox" name="acepta" id="check-2" value="2">
+                            </div>
+                        </div>
+                        <div class="grid_button"> 
+                            <input class="btn-Enviar" type="submit" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="menu_footer grid_pie">
+            <div class="footer_copy">
+                <p>Copyright © 2021</p>
+            </div>
+            <div class="footer_menu">
+                <ul class="menu-pie">
+                    <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram"></i></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"></a><i class="fab fa-facebook-f"></i></li>
+                    <li><a href="https://twitter.com/" target="_blank"></a><i class="fab fa-twitter"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
