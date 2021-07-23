@@ -61,7 +61,7 @@
     width: 100px;
     height: auto;
 }
-.header_menustyle {
+/* .header_menustyle {
     width: 50%;
 }
 .header_menustyle ul {
@@ -83,12 +83,11 @@
 .header_menustyle ul li a:hover {
     text-decoration-color: #f8dc08;
     text-decoration-line: line-through; 
-}
+} */
 
 /* ------------------------------- Home */
 
 .intro {
-    height: 100vh;
     background-image: url(/imagenes/backgroundimage.jpg);
     background-position: center;
     background-size: cover;
