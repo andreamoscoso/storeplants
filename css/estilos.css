@@ -89,7 +89,7 @@
 
 .intro {
     height: 100vh;
-    background-image: url(imagenes/backgroundimage.png);
+    background-image: url(/imagenes/backgroundimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
