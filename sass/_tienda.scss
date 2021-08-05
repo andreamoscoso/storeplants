@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    section {
+        &.content-card {
+            padding-top: 10rem;
+            padding-bottom: 3rem;
+            div {
+                img {
+                    &.imagen-card {
+                        height: 350px;
+                        padding: 2rem 2rem;
+                    }
+                }
+            }
+        }   
+    }
+}

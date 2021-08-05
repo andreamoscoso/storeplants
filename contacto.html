@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,9 +31,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Estilos Css-->
     <link rel="stylesheet" href="css/style.css">
-    <title>Nosotros</title>
+    <title>Contacto</title>
 </head>
-
 <body>
     <!-- Menu -->
     <header>
@@ -53,7 +51,8 @@
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
                                 id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Tienda</a>
-                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <ul class="dropdown-menu dropdown-menu-light"
+                                aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" href="tienda.html">Plantas</a></li>
                             </ul>
                         </li>
@@ -66,23 +65,72 @@
     </header>
     <main>
         <!-- Contenido -->
-        <section class="container_flex_first">
-            <div class="box_first">
-                <img src="imagenes/imagen_acerca.jpg" alt="">
-            </div>
-            <div class="box_first">
-                <h1>Sobre Nosotros</h1>
-            </div>
-            <div class="box_first">
-                <p>Nuestra tienda se dedica a la comercialización de plantas y cactus tenemos más de 20 años en el
-                    mercado ofrecemos todo tipo plantas y cactus, que te permita crear un sitio ecologico en casa.
-                    Las suculentas se han vuelto populares tanto para los amantes de las plantas como para los que
-                    no tiene manos para ellas.
-                </p>
-                <p>
-                    Ocupan poco espacio, son fáciles de cuidar y pueden crecer en casi cualquier sitio ya sea interior o
-                    exteior, por lo que son ideales para tener un pedacito de naturaleza casi en cualquier espacio.
-                </p>
+        <section class="container content-card">
+            <div class="card">
+                <img src="imagenes/call_center.jpg" class="card-img-top image-card" alt="imagen_acerca">
+                <div class="card-body">
+                  <h5 class="card-title text-title">Contáctanos</h5>
+                  <p class="card-text text-title">Para consultas en general, escribenos a green_store@hotmail.com</p> 
+                </div>
+                <form class="form-repo">
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre: </label>
+                        <div class="col-sm-10">
+                          <input type="text" name="nombre" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">Email: </label>
+                      <div class="col-sm-10">
+                        <input type="email" name="email" class="form-control" id="inputEmail3">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Asunto: </label>
+                        <div class="col-sm-10">
+                          <input type="text" name="asunto" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Mensaje: </label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Seleccione el país: </label>
+                        <div class="col-sm-10">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected></option>
+                                <option value="1">Argentina</option>
+                                <option value="2">Chile</option>
+                                <option value="3">Brazil</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">Acepta términos y condiciones</label>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-12">
+                          <div class="form-check">
+                            <input class="form-check-input check-input" type="checkbox" id="gridCheck2">
+                            <label class="form-check-label" for="gridCheck2">Quiero recibir noticias nuestras</label>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3 text-center text-lg-center">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                  </form> 
+                  <a href="mailto:green_store@hotmail.com" id="green_store"></a>
             </div>
         </section>
     </main>
@@ -114,6 +162,8 @@
             </div>
         </div>
     </footer>
+    <a href="https://wa.me/51986579176" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <script src="js/configuration.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
@@ -121,5 +171,4 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

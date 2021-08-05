@@ -1,0 +1,30 @@
+@keyframes saltar{
+    0%
+    {
+        bottom: 2rem;
+    }
+
+    50%
+    {
+        bottom: 4rem;
+    }
+
+    100%
+    {
+        bottom: 2rem;
+    }
+}
+@keyframes tamaño {
+    0% {
+        padding: 10px;
+        border: none;
+        color: white;
+        background-color: #085231;
+    }
+    30% {
+        padding: 10px;
+        border: none;
+        color: #000;
+        background-color: #cddc39;
+    }
+}

@@ -1,0 +1,86 @@
+$borderRadius: 5px;
+footer {
+    div {
+        &.container_flex_footer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background: #085831;
+            padding: 30px;
+            min-height: 200px;
+            div {
+                &.box_footer {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 33.333%;
+                    height: auto;
+                    color: #fff;
+                    background: #085831;
+                    flex-direction: column;
+                    padding: 40px;
+                }
+                img {
+                    width: 100px;
+                }
+                p {
+                    font-size: 20px;                        
+                    font-weight: bold;
+                    text-align: center;
+                    &.texto_box {
+                        font-size: 18px; 
+                        font-weight: lighter;
+                    }
+                }
+                form {
+                    div {
+                        input {
+                            &.form_text {
+                                background-color: #cddc39;
+                                border: 1px solid #cddc39;
+                                border-radius: $borderRadius + 2px;
+                                padding: 6px;
+                            }
+                        }
+                        button {
+                            &.btn_sus {
+                                padding: 6px;
+                                border: 1px solid white;
+                                color: white;
+                                background-color: #085231;
+                                border-radius: $borderRadius + 5px;
+                            }
+                            &.btn_sus:hover {
+                                border: 1px solid #085231;
+                                background-color: white;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.container_flex_rs {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            min-height: 30px;
+            div {
+                &.box_rs {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 30px;
+                    p {
+                        &.texto_footer {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

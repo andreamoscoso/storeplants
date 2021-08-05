@@ -1,0 +1,62 @@
+$padding: 48px;
+body {
+    section {
+        &.content-card {
+            text-align: justify;
+            padding-top: 2rem 0;
+            div {
+                img {
+                    &.image-card {
+                        padding-bottom: $padding + 2;
+                    }
+                }
+                &.card-body {
+                    padding-bottom: 50px;
+                    h5 {
+                        &.text-title {
+                            text-align: center;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                    }
+                    p {
+                        &.text-title {
+                            text-align: center;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                    }
+                }
+                a {
+                    &.green_store {
+                        opacity: 0;
+                    }
+                }
+
+            }
+            form {
+                &.form-repo {
+                    padding: 1rem 1rem;
+                }
+            }
+        }
+    }
+    a {
+        &.whatsapp {
+            position: fixed;
+            right: 3rem;
+            bottom: 5.35rem;
+            width: 2.5rem;
+            height: 6.5rem;
+            line-height: 0.2;
+            padding: 0.5rem;
+            text-align: center;
+            color: #000;
+            font-size: 4rem;
+            animation-name: saltar;
+	        animation-duration: 2s;
+	        animation-direction:reverse;
+ 	        animation-iteration-count: infinite;
+ 	        animation-timing-function: ease-in;
+ 	        animation-delay: 1s;
+        }
+    }
+}

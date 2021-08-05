@@ -1,0 +1,57 @@
+@mixin btn {
+    display: block;
+    padding: 10px;
+}
+
+div {
+    &#fondoHome {
+        padding: 0px;
+        margin-top: 0;
+        height: auto;
+        div {
+            div {
+                div {
+                    div {
+                        h5 {
+                            &.text_carousel {
+                                margin: 60% auto;
+                                color: white;
+                                background-color: #000;
+                                transform: rotate(-3deg);
+                                padding: 30px;
+                            }
+                            &.text_carousel_derecha {
+                                margin: 60% auto;
+                                width: 200px;
+                                color: white;
+                                background-color: #000;
+                                transform: rotate(3deg);
+                                padding: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+button {
+    &.carousel-control-prev {
+        span {
+            &.carousel-control-prev-icon {
+                @include btn;
+                background-image: url(/imagenes/arrow-circle-left-solid.svg);
+            }
+        }
+    }
+    &.carousel-control-next {
+        span {
+            &.carousel-control-next-icon {
+                @include btn;
+                background-image: url(/imagenes/arrow-circle-right-solid.svg);
+            }
+        }
+    }
+}
+
+
