@@ -181,6 +181,10 @@ body section.content-card form.form-repo {
   padding: 1rem 1rem;
 }
 
+body section.content-card form.form-repo div div textarea.form-control {
+  resize: none;
+}
+
 body a.whatsapp {
   position: fixed;
   right: 3rem;
@@ -728,6 +732,20 @@ body a.arriba {
     width: 100%;
     padding: 20px;
   }
+  body section.content-card form.form-repo div div div.form-check {
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body section.content-card form.form-repo div div div.form-check label {
+    padding-left: 15px;
+  }
   div#fondoHome {
     width: 100%;
     margin-top: 100px;
@@ -735,6 +753,9 @@ body a.arriba {
   footer div.container_flex_footer div form div {
     text-align: center;
     margin-bottom: 10px;
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
   }
   footer div.container_flex_rs div.box_rs p.texto_footer {
     text-align: center;

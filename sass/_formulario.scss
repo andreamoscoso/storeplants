@@ -35,6 +35,15 @@ body {
             form {
                 &.form-repo {
                     padding: 1rem 1rem;
+                    div {
+                        div {
+                            textarea {
+                                &.form-control {
+                                    resize: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

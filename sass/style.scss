@@ -323,6 +323,16 @@ $mobile: 580px;
         width: 100%;
         padding: 20px;
     }
+    body section.content-card form.form-repo div div div.form-check {
+        min-height: 1.5rem;
+        padding-left: 1.5em;
+        margin-bottom: .125rem;
+        display: flex;
+        justify-content: center;
+    }
+    body section.content-card form.form-repo div div div.form-check label{
+        padding-left: 15px;
+    }
     div#fondoHome {
         width: 100%;
         margin-top: 100px;
@@ -330,6 +340,7 @@ $mobile: 580px;
     footer div.container_flex_footer div form div {
         text-align: center;
         margin-bottom: 10px;
+        max-width: min-content;
     }
     footer div.container_flex_rs div.box_rs p.texto_footer {
         text-align: center;
